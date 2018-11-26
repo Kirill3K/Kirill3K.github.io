@@ -68,6 +68,8 @@ h1, h2, h3, h4, h5, h6, p {
 .header-button:hover {
 	background-color: #ffffff;
 	color: #005388;
+	box-shadow: none;
+	transition: 0.2s;
 }
 
 .header-button-o {
@@ -357,6 +359,12 @@ h1, h2, h3, h4, h5, h6, p {
 	letter-spacing: 0.95px;
 }
 
+.info-submit:hover {
+	background-color: #ffffff;
+	text-decoration: underline;
+	transition: 0.2s;
+}
+
 .info-input {
 	color: #808080;
 	font-size: 18px;
@@ -369,7 +377,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .info-input:focus {
-	outline: none;
+	outline: none;	
 }
 
 .info-img {
